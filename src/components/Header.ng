@@ -1,0 +1,9 @@
+<template>
+  <nav class="navbar navbar-inverse bg-primary">
+      <div class="container">
+        <a class="navbar-brand" ui-sref="home">
+          <img class="logo" src="~assets/logo.png" alt="">
+        </a>
+      </div>
+  </nav>
+</template>

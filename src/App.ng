@@ -1,0 +1,21 @@
+<template>
+  <div id="app">
+    <header-fixed></header-fixed>
+    <div class="container mt-5" ui-view></div>
+  </div>
+</template>
+
+<script>
+  import headerFixed from 'components/Header'
+
+  export default {
+    name: 'app',
+    components: {
+      headerFixed
+    }
+  }
+</script>
+
+<style lang="scss">
+   @import '~assets/custom';
+</style>

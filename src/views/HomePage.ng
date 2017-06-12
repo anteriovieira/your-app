@@ -1,0 +1,31 @@
+<template>
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+          <h1 class="title">{{ ::$ctrl.title }}</h1>
+          <p>This example is a quick exercise to illustrate how the navbar and its contents work. Some navbars extend the width of the viewport, others are confined within a <code>.container</code>. For positioning of navbars, checkout the <a href="../navbar-top/">top</a> and <a href="../navbar-top-fixed/">fixed top</a> examples.</p>
+          <p>At the smallest breakpoint, the collapse plugin is used to hide the links and show a menu button to toggle the collapsed content.</p>
+          <p>
+            <a class="btn btn-secondary mr-1" ui-sref="about">About ng-loader</a>
+            <a class="btn btn-primary" href="https://github.com/anteriovieira/angular-project" role="button">View code &raquo;</a>
+          </p>
+        </div>
+      </div>
+</template>
+
+<script>
+  export default {
+    controller: class HomePageCtrl {
+      constructor () 
+      {
+        this.title = 'An AngularJs Project'
+      }
+    }
+  }
+</script>
+
+<style>
+  .title {
+    color: #0275d8;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.14);
+  }
+</style>
