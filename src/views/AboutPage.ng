@@ -2,7 +2,7 @@
     <div>
         <h1>About ng-loader</h1>
         <p class="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam aliquid vero assumenda necessitatibus quaerat incidunt minus quas placeat obcaecati mollitia qui nihil, sapiente quibusdam eius delectus accusamus ea nemo, voluptatum.
+            <a href="https://github.com/owen-it/ng-loader">ng-loader</a> is a loader for Webpack that can transform *.ng files into <a href="https://docs.angularjs.org/guide/component">AngularJs Components</a> .
         </p>
         <p>
             <a class="btn btn-secondary mr-1" ui-sref="home">Home</a>
