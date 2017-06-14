@@ -5,7 +5,7 @@
           <p>This example is a quick exercise to illustrate how you can create a simple and fast application with <strong>ng-loader</strong>.</p>
           <p>
             <a class="btn btn-secondary mr-1" ui-sref="about">About ng-loader</a>
-            <a class="btn btn-primary" href="https://github.com/anteriovieira/angular-project" role="button">View code &raquo;</a>
+            <a class="btn btn-primary" href="https://github.com/anteriovieira/your-app" role="button">View source code &raquo;</a>
           </p>
         </div>
       </div>
